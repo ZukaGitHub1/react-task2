@@ -6,7 +6,7 @@ import TodoList from './components/TodoList';
 
 function App() {
   return <div className="App">
-     <TodoList >
+     <TodoList props={Children}>
     <Todo  title="Learn React" isDone={true} />
     <Todo  title="Learn Node" isDone={false}/>
     <Todo  title="Cry because as a developer i don't have a life)" isDone={true}/>
